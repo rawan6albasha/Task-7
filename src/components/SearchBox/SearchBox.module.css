@@ -1,0 +1,172 @@
+.SearchBox {
+    background-color: #FFFFFF33;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 20px;
+    width: max-content;
+}
+.SearchBox option{
+    font-size: 15px;
+    font-weight: 400;
+}
+.btnTours {
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: #FFFFFF66;
+}
+
+.btnTours_pri {
+    border-radius: 0px 12px 0px 0px;
+}
+
+.btnActive {
+    background-color: white;
+    color: var(--orange);
+}
+
+.btnTours_pub {
+    border-radius: 12px 0px 0px 0px;
+    -webkit-border-radius: 12px 0px 0px 0px;
+    -moz-border-radius: 12px 0px 0px 0px;
+    -ms-border-radius: 12px 0px 0px 0px;
+    -o-border-radius: 12px 0px 0px 0px;
+}
+
+.ulSearch {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 0px 12px 12px 12px;
+
+
+}
+
+.Public {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* الكود الموجود مسبقًا في DatePicker.css */
+
+.date_picker_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* max-width: 200px; */
+}
+
+.date_picker_wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.styled_date_picker {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* padding: 8px 12px; */
+    /* font-size: 16px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    /* background-color: #fff; */
+    /* color: #333; */
+    /* width: 100%; */
+    cursor: pointer;
+    outline: none;
+}
+
+/* جعل أيقونة التقويم الافتراضية غير مرئية مؤقتًا */
+.styled_date_picker::-webkit-calendar-picker-indicator {
+    display: block;
+    opacity: 0;
+    /* شفافية كاملة لجعلها غير مرئية */
+}
+
+/* إخفاء النص الافتراضي وأي فواصل غير مرغوبة */
+.styled_date_picker::-webkit-datetime-edit-year-field,
+.styled_date_picker::-webkit-datetime-edit-month-field,
+.styled_date_picker::-webkit-datetime-edit-day-field,
+.styled_date_picker::-webkit-datetime-edit-hour-field,
+.styled_date_picker::-webkit-datetime-edit-minute-field,
+.styled_date_picker::-webkit-datetime-edit-second-field,
+.styled_date_picker::-webkit-datetime-edit-ampm-field,
+.styled_date_picker::-webkit-datetime-edit-text {
+    color: transparent;
+}
+
+/* الأيقونة المخصصة */
+.custom_calendar_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #666;
+    font-size: 18px;
+}
+
+.tit {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 6px;
+}
+
+/* نص placeholder مخصص */
+.placeholder_text {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: var(--dark-gray);
+    pointer-events: none;
+    margin-left: 18.5px;
+    /* font-size: 16px; */
+}
+
+.date_picker_wrapper svg {
+    color: var(--dark-gray);
+}
+
+.styled_date_picker:focus+.placeholder_text,
+.styled_date_picker:not(:placeholder-shown)+.placeholder_text {
+    display: none;
+}
+
+.SearchBox svg {
+    font-size: 24px;
+}
+
+.inputBox {
+    border: none;
+    background-color: transparent;
+    color: var(--dark-gray);
+    margin-left: 28px;
+}
+
+.search_btn {
+    padding: 22.5px 24px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+   
+}
+.search_btn svg{
+    font-size:32px;
+}
+.itemTours{
+border-left:1px solid rgba(51, 51, 51, 0.1);
+padding-left: 31px;
+}

@@ -1,0 +1,29 @@
+.sit_p{
+opacity: 0.6;
+color: var(--dark-gray);
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+}
+.BeastComp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 269px;
+    margin-bottom: 217px;
+}
+.item{
+    width: min-content;
+}
+.BeastBody{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Beasthead{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

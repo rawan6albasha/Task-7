@@ -1,0 +1,67 @@
+
+.timeDetls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeDetl{
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    color: var(--orange);
+}
+.price_pag{    display: flex;
+    align-items: center;
+    gap: 10px;}
+.timeDetl svg{
+    font-size: 24px;
+}
+.price{color: var(--orange);}
+.cardGap_12{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.serviceItem{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16.5px 0;
+}
+.packag_body svg{
+    color: var(--orange);
+    font-size: 24px;
+}
+.packag_body p{
+    color: var(--dark-gray);
+}
+.packag_body .packag_price span{
+    color: var(--orange);
+    font-size: 48px;
+    font-weight: 700;
+}
+.packag_price sup ,.packag_price sub{
+    color: var(--dark-gray);
+}
+.submitButton {
+    padding: 12px 57.11px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: white;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    width: max-content;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* يجعل الزر في المنتصف */
+    margin-top: 20px;
+  }
+  .border{
+    border: 1px solid #EFEFEF;
+    padding-left: 25px;
+  }

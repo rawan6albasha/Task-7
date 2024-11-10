@@ -1,0 +1,76 @@
+.navUl {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navUl li a {
+    text-decoration: none;
+    color: white;
+}
+.navUl li{
+    width: max-content;
+}
+.navUl li :focus,
+.navUl li :hover {
+    border-bottom: 2px solid var(--orange);
+
+}
+
+.selectNav {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.login_btn {
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.logup_btn {
+    background-color: var(--orange);
+    padding: 10px 24px;
+    border-radius: 50px ;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ;
+    border: none;
+    color: white;
+    width: max-content;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #FFFFFF33;
+    display: flex;
+    align-items: center;
+    gap: 278px;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+  
+  .navbar.scrolled {
+    position: fixed;
+    background-color: rgba(51, 51, 51, 0.9); /* لون داكن مع شفافية */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+.toggleBody{
+    display: flex;
+    align-items: center;
+    gap: 167px;
+}
+.navDetl{
+    display: flex;
+    gap: 10px;
+}

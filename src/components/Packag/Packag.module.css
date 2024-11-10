@@ -1,0 +1,11 @@
+.containerCard{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.Packag{
+    margin-top: 120px;
+}

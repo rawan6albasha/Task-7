@@ -1,0 +1,9 @@
+.containerCard{
+    display: flex;
+    gap: 33px;
+    margin-bottom: 63px;
+    margin-top: 120px;
+}
+.Display_img{
+    margin-bottom: 20px;
+}
